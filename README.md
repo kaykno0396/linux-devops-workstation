@@ -9,3 +9,4 @@ This repository contains the configuration, documentation, scripts and tools use
 - Build a portable workstation
 - Learn DevOps tools
 - Version control all configuration
+- Build a professional GitHub portfolio
