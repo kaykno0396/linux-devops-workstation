@@ -66,7 +66,7 @@ tiling_drag modifier titlebar
 # start a terminal
 # bindsym $mod+Return exec i3-sensible-terminal
 
-bindsym $mod+Return exec konsole
+bindsym $mod+Return exec --no-startup-id kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -166,7 +166,7 @@ bindsym $mod+0 workspace number $ws10
 # Automatic workspace assignment
 assign [class="org.mozilla.firefox"] $ws2
 assign [class="code"] $ws3
-assign [class="konsole"] $ws1
+assign [class="kitty"] $ws1
 assign [class="Thunar"] $ws5
 assign [class="org.remmina.Remmina"] $ws6
 
